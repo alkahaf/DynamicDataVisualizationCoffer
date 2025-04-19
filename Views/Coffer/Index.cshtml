@@ -8,27 +8,27 @@
 <canvas id="myBarChart" width="400" height="200"></canvas>
 
 <!-- Table -->
-<table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-        <tr>
-            <th>Sector</th>
-            <th>Topic</th>
-            <th>Intensity</th>
-            <th>Country</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in ViewBag.TableData)
-        {
-            <tr>
-                <td>@item.sector</td>
-                <td>@item.topic</td>
-                <td>@item.intensity</td>
-                <td>@item.country</td>
-            </tr>
-        }
-    </tbody>
-</table>
+@* <table border="1" cellpadding="5" cellspacing="0"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th>Sector</th> *@
+@*             <th>Topic</th> *@
+@*             <th>Intensity</th> *@
+@*             <th>Country</th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*         @foreach (var item in ViewBag.TableData) *@
+@*         { *@
+@*             <tr> *@
+@*                 <td>@item.sector</td> *@
+@*                 <td>@item.topic</td> *@
+@*                 <td>@item.intensity</td> *@
+@*                 <td>@item.country</td> *@
+@*             </tr> *@
+@*         } *@
+@*     </tbody> *@
+@* </table> *@
 
 <!-- Include Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
