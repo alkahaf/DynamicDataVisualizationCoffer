@@ -35,6 +35,4 @@ Initially, the Excel data was manually imported into the SQL Server database. Af
 ![image](https://github.com/user-attachments/assets/03856739-7308-45fa-b644-3638ca8ed7bb)
 
 
-## 📦 How to Run
 
-1. Clone this repository  
